@@ -1,0 +1,128 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    background-color: white; /* Change background color to white */
+    height: 40px;
+    color: black; /* Change font color to black */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.logo img{
+    width: 25px;
+    display: flex;
+}
+
+.details {
+    background-color: white; /* Change background color to white */
+    display: flex;
+    color: black; /* Change font color to black */
+    gap: 10px;
+    font-size: 12pxs;
+}
+
+.details a{
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+} 
+.search img{
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+}
+.shopping img{
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+}
+
+.models {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 5px 5px;
+    gap: 3rem;
+}
+
+.models a {
+    display: flex;
+    color: black;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    font-size: 12px; /* Adjust font size */
+}
+
+.models a img{
+    width: 35px;
+}
+
+.offers {
+background-color: whitesmoke;
+height: 30px;
+justify-content: center;
+color: rgb(129, 125, 125);
+display: flex;
+align-items: center;
+}
+
+.offers span{
+    color: blue;
+}
+
+
+.watch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.watch h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.airpodstext {
+    font-size: 100px;
+}
+.watch video {
+   height: 100%; /* Adjust the height as needed */
+   width: 100%;
+}
+.price{
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.pic1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.pic1 h1{
+    position: absolute;
+    top: 331%;
+    left: 726%;
+    transform: translate(-50%,-50%);
+    z-index: 5 ;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: -0.0015em;
+    
+}
